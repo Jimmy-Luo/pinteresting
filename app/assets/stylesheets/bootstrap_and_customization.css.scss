@@ -1,8 +1,26 @@
-$navbar-default-bg: #F64747;
-$navbar-default-link-color: black;
-$navbar-default-link-hover-color: white;
-$navbar-default-brand-color: #22313F;
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
-$brand-primary:	#c0392b;
+$font-family-sans-serif:	'Lato','Helvetica Neue', Helvetica, Arial, sans-serif;
+
+// body
+$body-bg: 												#DADFE1;
+
+// navbar
+$navbar-default-bg: 								white;
+$navbar-default-link-color: 				black;
+$navbar-default-link-hover-color: #c0392b;
+$navbar-default-brand-color: 			#C92228;	//Pinterest Logo				
+
+// jumbotron
+$jumbotron-bg: 											white;
+$brand-primary:										#c0392b;	//sign up button
 
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
